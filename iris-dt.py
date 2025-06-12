@@ -9,10 +9,12 @@ import seaborn as sns
 
 
 # below three line code is responsible to connect with 
-import dagshub
-dagshub.init(repo_owner='campusx-official', repo_name='mlflow-dagshub-demo', mlflow=True)
 
-mlflow.set_tracking_uri("https://dagshub.com/campusx-official/mlflow-dagshub-demo.mlflow")
+
+import dagshub
+dagshub.init(repo_owner='bhaveshbohra', repo_name='mlflow-dagshub', mlflow=True)
+
+mlflow.set_tracking_uri("https://dagshub.com/bhaveshbohra/mlflow-dagshub.mlflow")
 
 
 
